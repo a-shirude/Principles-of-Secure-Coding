@@ -1,0 +1,19 @@
+Complete Mediation (Suggested Activity)
+The goal of this activity is to determine whether the system enforces the Principle of Complete Mediation. It will also get you used to writing a program on the system you’re using, if you have not used it before.
+
+Setup
+Download the file sa-1-testfile. Put it into your current working directory and rename it testfile. Be sure you can read it.
+
+What To Do
+You are to write a short program, in any language you like, that does the following:
+
+Open testfile for reading for reading but do not read from it.
+
+Turn off read permission for testfile. You can do this from within the program, or pause the program and do it any other way (and the resume the program execution). At this point, it is critical that you not be able to read from it.
+
+Now read from the file, and print it out to determine if the read succeeds.
+
+Important Note
+Whenever you start your program a second time, be sure you can read testfile; otherwise, your program will fail.
+
+Discussion. Did your program print the complete file? Why was it able to do so? If it did not, and only printed part of the file, why did it not print the entire file?
